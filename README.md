@@ -43,4 +43,15 @@ https://henshmi.github.io/Classic-Pool-Game/
   Licensed under Creative Commons: By Attribution 3.0 License<br>
   http://creativecommons.org/licenses/by/3.0/
 
+Setup and running
+sudo apt update
 
+sudo apt install docker
+
+sudo apt install docker-compose
+
+docker-compose build pool
+
+docker-compose up -d
+
+Go to http://localhost:1211
